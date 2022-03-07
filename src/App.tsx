@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+const App = () => {
+  return(
+    <div className="container">
+      <header>
+        <h2 className='header-text'>Coin.Organize</h2>
       </header>
+
+      <body>
+        {/* Área de informação*/}    
+
+        {/* Área de inserção de dados*/}      
+
+        {/* Tabela de dados*/}      
+      </body>
     </div>
+
   );
 }
 
